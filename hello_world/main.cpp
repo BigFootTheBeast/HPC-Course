@@ -4,12 +4,16 @@ void print_hello_world(){
   std::cout << "Hello World" << std::endl;
   } 
 
-int multiply(double a, double b){
+double multiply(double a, double b){
   return a*b;
 }
 
 int main(){
+    double a=0, b=0;
+    std::cout << "Write your numbers" << std::endl;
+    std::cin >> a >> b;
+
     print_hello_world();
-    std::cout << multiply(3,2) << std::endl;
+    std::cout << multiply(a,b) << std::endl;
 }
 	
