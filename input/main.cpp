@@ -24,8 +24,8 @@ int main(int argc, char** argv){
     if( !(std::getline(in2,line)) ) break;
     std::stringstream ss(line) ;
     double number1 = 0, number2 = 0;
-    ss>>number1;
-    ss>>number2;
+    if( !(ss>>number1)) break;
+    if( !(ss>>number2)) break;
     std::vector<double> numbers;
     numbers.push_back(number1);
     numbers.push_back(number2); 
