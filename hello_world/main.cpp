@@ -9,10 +9,12 @@ double multiply(double a, double b){
 }
 
 int main(){
-/*    double a=0, b=0;
+/*   
+    double a=0, b=0;
     std::cout << "Write your numbers" << std::endl;
     std::cin >> a >> b;
-    */
+    std::cout << multiply(a,b) << std::endl;
+*/
     std::cout << "hello world or meow? h|m" << std::endl;
     char answer;
     std::cin >> answer;
@@ -24,6 +26,5 @@ int main(){
       std::cout << "h and m are valid options" << std::endl;
     }
     return 0;
-    //std::cout << multiply(a,b) << std::endl;
 }
 	
